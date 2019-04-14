@@ -1,6 +1,6 @@
 {
   "name": "errporter",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Let users report errors to GitHub",
   "main": "./out/cjs/index.js",
   "module": "./out/es/index.js",
