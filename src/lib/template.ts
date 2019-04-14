@@ -27,7 +27,7 @@ export function parseArgs(raw) {
 
 // Built in helpers
 export type Resolver = (options: { args: (number|string)[] }) => Promise<string> | string;
-export type ResolverMap = { [name: string]: Resolver };
+export interface ResolverMap { [name: string]: Resolver }
 
 export const builtinResolvers: ResolverMap = {
   osName: () => osName(),

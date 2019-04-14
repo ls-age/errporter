@@ -7,6 +7,7 @@
   ],
   "rules": {
     "compat/compat": "off",
+    "import/prefer-default-export": "off",
     "@typescript-eslint/indent": ["error", 2],
     "@typescript-eslint/explicit-function-return-type": "off"
   }
