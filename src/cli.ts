@@ -22,11 +22,12 @@ ${bold('Available options:')}
   ${cyan(`--help, ${dim('-h')}`)}     Show this help                          ${yellow('boolean')}
 `;
 
-type CliOptions = {
+interface CliOptions {
+  _: string[];
   title?: string;
   template?: string;
   package?: string;
-  ['print-url']: boolean;
+  ['print-url']?: boolean;
 
   verbose?: boolean;
   help?: boolean;
