@@ -1,0 +1,50 @@
+{
+  "name": "errporter",
+  "version": "0.0.0",
+  "description": "Let users report errors to GitHub",
+  "main": "./out/cjs/index.js",
+  "module": "./out/es/index.js",
+  "types": "./out/types/index.d.ts",
+  "bin": {
+    "errporter": "./out/cjs/cli.js"
+  },
+  "scripts": {
+    "compile": "rollup -c",
+    "lint": "eslint src rollup.config.js --ext .js,.ts",
+    "test": "ava",
+    "types": "tsc --emitDeclarationOnly"
+  },
+  "keywords": [
+    "error",
+    "report",
+    "github",
+    "issue"
+  ],
+  "author": "Lukas Hechenberger <npm@ls-age.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-typescript": "^7.3.3",
+    "@ls-age/eslint-config": "^0.8.0",
+    "@types/prompts": "^1.2.0",
+    "@typescript-eslint/eslint-plugin": "^1.6.0",
+    "eslint": "^5.16.0",
+    "rollup": "^1.10.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "typescript": "^3.4.3"
+  },
+  "dependencies": {
+    "async-replace-es6": "^1.0.5",
+    "execa": "^1.0.0",
+    "get-pkg-repo": "^4.1.0",
+    "getopts": "^2.2.4",
+    "kleur": "^3.0.3",
+    "new-github-issue-url": "^0.2.1",
+    "open": "^6.1.0",
+    "os-name": "^3.1.0",
+    "prompts": "^2.0.4"
+  }
+}
