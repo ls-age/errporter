@@ -2,6 +2,7 @@ import { builtinModules } from 'module';
 import resolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
 import json from 'rollup-plugin-json';
+import addShebang from 'rollup-plugin-add-shebang';
 import { dependencies } from './package.json';
 
 const extensions = ['.js', '.ts'];
@@ -19,6 +20,7 @@ export default {
       include: './src/**/*',
     }),
     json(),
+    addShebang(),
   ],
   output: [
     {
