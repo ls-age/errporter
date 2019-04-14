@@ -49,6 +49,10 @@ jobs:
       - run:
           name: Bundle app
           command: npm run compile
+      - persist_to_workspace:
+          root: .
+          paths:
+            - out
 
   types:
     <<: *defaults
@@ -58,6 +62,10 @@ jobs:
       - run:
           name: Check types
           command: npm run types
+      - persist_to_workspace:
+          root: .
+          paths:
+            - out/types
 
   deploy:
     <<: *defaults
