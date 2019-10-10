@@ -23,7 +23,7 @@
   "author": "Lukas Hechenberger <npm@ls-age.com>",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "7.6.3",
+    "@babel/core": "7.6.4",
     "@babel/preset-env": "7.6.3",
     "@babel/preset-typescript": "7.6.0",
     "@ls-age/eslint-config": "0.9.1",
