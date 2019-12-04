@@ -35,7 +35,7 @@
     "rollup-plugin-babel": "4.3.3",
     "rollup-plugin-json": "4.0.0",
     "rollup-plugin-node-resolve": "5.2.0",
-    "typescript": "3.7.2"
+    "typescript": "3.7.3"
   },
   "dependencies": {
     "async-replace-es6": "^1.0.5",
