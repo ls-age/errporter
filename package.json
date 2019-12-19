@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "async-replace-es6": "^1.0.5",
-    "execa": "^1.0.0",
+    "execa": "^4.0.0",
     "get-pkg-repo": "^4.1.0",
     "getopts": "^2.2.4",
     "kleur": "^3.0.3",
