@@ -43,7 +43,7 @@
     "get-pkg-repo": "^4.1.0",
     "getopts": "^2.2.4",
     "kleur": "^3.0.3",
-    "new-github-issue-url": "^0.2.1",
+    "new-github-issue-url": "^1.0.0",
     "open": "^6.1.0",
     "os-name": "^3.1.0",
     "prompts": "^2.0.4"
