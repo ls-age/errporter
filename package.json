@@ -40,7 +40,7 @@
   "dependencies": {
     "async-replace-es6": "^1.0.5",
     "execa": "^1.0.0",
-    "get-pkg-repo": "^4.1.0",
+    "get-pkg-repo": "^5.0.0",
     "getopts": "^2.2.4",
     "kleur": "^3.0.3",
     "new-github-issue-url": "^0.2.1",
